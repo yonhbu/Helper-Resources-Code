@@ -6,15 +6,17 @@ import static org.mockito.Mockito.when;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.mockito.runners.MockitoJUnitRunner;
 
 import com.ejercicio.mockito.controllers.SaludosController;
 import com.ejercicio.mockito.services.SaludosService;
 
 
-
+@RunWith(MockitoJUnitRunner.class)
 public class SaludosControllerTest {
 	
 
